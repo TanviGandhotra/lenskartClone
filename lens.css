@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.fnav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+.fnav input{
+    width: 321px;
+    height: 27px;
+    border-radius: 3px;
+    text-align: center;
+    margin-top: 22px;
+    border: 2px solid grey;  
+}
+.fnav p{
+    margin-top: 17px;
+    font-size: 17px;
+    cursor: pointer;
+    font-size: 22px;
+    
+}
+.snav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 11px;
+    background-color: rgb(218, 213,213);
+}
+.snav img{
+    width: 9%;
+    height: 20%;
+
+}
+.snav p{
+    font-size: 18px;
+}
+.snav p:hover{
+    border-bottom: 2px solid rgb(13, 13, 46);
+    color: rgb(13, 13, 46);
+    cursor: pointer;
+
+
+}
+.lens{
+     justify-content: center;
+     justify-content: space-around;
+     display: flex;
+     background-color: rgb(247, 235, 235);
+    padding: 11px;
+}
+.lens img{
+    width: 22%;
+    height: 20%;
+    border: 2px solid white;
+}
+
+.cart{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 11px;
+    
+}
+.cart .card{
+    text-align: center;
+}
+.cart button{
+    width: 100px;
+    height: 33px;
+    color: white;
+    background-color: black;
+    border-radius: 2px;
+    font-size: 19px;
+    font-weight: 500px;
+
+}
+.cart .card img{
+    width: 66%;
+    margin: auto;
+}
+.card p{
+    font-size: 16px;
+
+}
+.banner h2{
+    text-align: center;
+    padding: 45px;
+
+}
+.banner .img img{
+    width: 100%;
+}
+.banner .t-img{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.banner .u-img{
+    
+    display: grid;
+    grid-template-columns: 820px 300px;
+    
+    
+    margin: 23px;
+    /* padding: 22px; */
+    
+}
+footer .last{
+    border-top: 2px solid black;
+    background-color: rgb(71, 71, 149);
+}
+footer .last h1{
+    color: white;
+    
+}
+footer .last p{
+    color: white;
+    padding: 22px;
+    font-weight: 900px;
+    font-size: 22px;
+}
+.yo{
+    border-top: 2px solid white;
+    color: white;
+    display: flex;
+}
+.hi{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 600px;
+}
